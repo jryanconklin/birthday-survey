@@ -7,6 +7,12 @@ $(document).ready(function() {
     var income = $("#income").val();
     var dob = $("#birthdate").val();
 
+    $(".cupcake").text(cupcakeInput);
+    $(".flavor").text(flavorInput);
+    $(".favoriteColor").text(favoriteColorInput);
+    $(".income").text(incomeInput);
+    $(".dob").text(dobInput);
+
     $("#data").hide();
     $("#results").show();
 
