@@ -5,7 +5,7 @@ $(document).ready(function() {
     var flavor = $("input:radio[name=flavor]:checked").val();
     var favoriteColor = $("#color").val();
     var income = $("#income").val();
-
+    var dob = $("#birthdate").val();
 
     $("#data").hide();
     $("#results").show();
